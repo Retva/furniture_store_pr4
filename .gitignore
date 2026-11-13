@@ -1,0 +1,15 @@
+# Служебные каталоги сборки
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Настройки IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Прочее
+.DS_Store
+Thumbs.db

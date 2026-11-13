@@ -1,0 +1,1421 @@
+{
+ "categories": [
+  {
+   "id": 1,
+   "name": "Диваны",
+   "description": "Прямые, угловые и раскладные диваны",
+   "deletedAt": null
+  },
+  {
+   "id": 2,
+   "name": "Кресла",
+   "description": "Кресла для гостиной, кабинета и отдыха",
+   "deletedAt": null
+  },
+  {
+   "id": 3,
+   "name": "Столы",
+   "description": "Обеденные, письменные и журнальные столы",
+   "deletedAt": null
+  },
+  {
+   "id": 4,
+   "name": "Стулья",
+   "description": "Стулья, табуреты и барные стулья",
+   "deletedAt": null
+  },
+  {
+   "id": 5,
+   "name": "Шкафы",
+   "description": "Шкафы-купе, распашные и книжные шкафы",
+   "deletedAt": null
+  },
+  {
+   "id": 6,
+   "name": "Кровати",
+   "description": "Кровати для взрослых и детей",
+   "deletedAt": null
+  },
+  {
+   "id": 7,
+   "name": "Комоды и тумбы",
+   "description": "Комоды и прикроватные тумбы",
+   "deletedAt": null
+  },
+  {
+   "id": 8,
+   "name": "Стеллажи и полки",
+   "description": "Открытые стеллажи и настенные полки",
+   "deletedAt": null
+  },
+  {
+   "id": 9,
+   "name": "Садовая мебель",
+   "description": "Раздел закрыт, товары переданы в другие категории",
+   "deletedAt": "2026-08-20T00:00:00.000"
+  }
+ ],
+ "materials": [
+  {
+   "id": 1,
+   "name": "Массив дуба",
+   "kind": "Дерево",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 2,
+   "name": "Массив сосны",
+   "kind": "Дерево",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 3,
+   "name": "Массив берёзы",
+   "kind": "Дерево",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 4,
+   "name": "Массив бука",
+   "kind": "Дерево",
+   "origin": "Германия",
+   "deletedAt": null
+  },
+  {
+   "id": 5,
+   "name": "Шпон ореха",
+   "kind": "Дерево",
+   "origin": "Италия",
+   "deletedAt": null
+  },
+  {
+   "id": 6,
+   "name": "Шпон дуба",
+   "kind": "Дерево",
+   "origin": "Германия",
+   "deletedAt": null
+  },
+  {
+   "id": 7,
+   "name": "Шпон ясеня",
+   "kind": "Дерево",
+   "origin": "Германия",
+   "deletedAt": null
+  },
+  {
+   "id": 8,
+   "name": "ЛДСП",
+   "kind": "Плита",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 9,
+   "name": "МДФ",
+   "kind": "Плита",
+   "origin": "Польша",
+   "deletedAt": null
+  },
+  {
+   "id": 10,
+   "name": "Велюр",
+   "kind": "Ткань",
+   "origin": "Турция",
+   "deletedAt": null
+  },
+  {
+   "id": 11,
+   "name": "Шенилл",
+   "kind": "Ткань",
+   "origin": "Турция",
+   "deletedAt": null
+  },
+  {
+   "id": 12,
+   "name": "Рогожка",
+   "kind": "Ткань",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 13,
+   "name": "Бархат",
+   "kind": "Ткань",
+   "origin": "Италия",
+   "deletedAt": null
+  },
+  {
+   "id": 14,
+   "name": "Букле",
+   "kind": "Ткань",
+   "origin": "Италия",
+   "deletedAt": null
+  },
+  {
+   "id": 15,
+   "name": "Оксфорд",
+   "kind": "Ткань",
+   "origin": "Китай",
+   "deletedAt": null
+  },
+  {
+   "id": 16,
+   "name": "Натуральная кожа",
+   "kind": "Кожа",
+   "origin": "Италия",
+   "deletedAt": null
+  },
+  {
+   "id": 17,
+   "name": "Экокожа",
+   "kind": "Кожа",
+   "origin": "Китай",
+   "deletedAt": null
+  },
+  {
+   "id": 18,
+   "name": "Металл",
+   "kind": "Металл",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 19,
+   "name": "Стекло",
+   "kind": "Стекло",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 20,
+   "name": "Пластик",
+   "kind": "Пластик",
+   "origin": "Китай",
+   "deletedAt": null
+  },
+  {
+   "id": 21,
+   "name": "Зеркало",
+   "kind": "Стекло",
+   "origin": "Россия",
+   "deletedAt": null
+  },
+  {
+   "id": 22,
+   "name": "Гобелен",
+   "kind": "Ткань",
+   "origin": "Бельгия",
+   "deletedAt": null
+  },
+  {
+   "id": 23,
+   "name": "Ротанг",
+   "kind": "Дерево",
+   "origin": "Индонезия",
+   "deletedAt": "2026-07-01T00:00:00.000"
+  }
+ ],
+ "manufacturers": [
+  {
+   "id": 1,
+   "name": "Северный лес",
+   "country": "Россия",
+   "city": "Петрозаводск",
+   "foundedYear": 1998,
+   "email": "info@severles.example",
+   "website": "severles.example",
+   "materialIds": [
+    2,
+    3
+   ],
+   "description": "Мебель из массива карельской сосны и берёзы.",
+   "deletedAt": null
+  },
+  {
+   "id": 2,
+   "name": "Мебельград",
+   "country": "Россия",
+   "city": "Пенза",
+   "foundedYear": 2004,
+   "email": "info@mebelgrad.example",
+   "website": "mebelgrad.example",
+   "materialIds": [
+    8,
+    10,
+    17,
+    21
+   ],
+   "description": "Доступная корпусная и мягкая мебель для квартиры.",
+   "deletedAt": null
+  },
+  {
+   "id": 3,
+   "name": "Уральский дуб",
+   "country": "Россия",
+   "city": "Екатеринбург",
+   "foundedYear": 1992,
+   "email": "info@uraldub.example",
+   "website": "uraldub.example",
+   "materialIds": [
+    1,
+    6,
+    18
+   ],
+   "description": "Мебель в стиле лофт: металл, дуб, открытые конструкции.",
+   "deletedAt": null
+  },
+  {
+   "id": 4,
+   "name": "Casa Nobile",
+   "country": "Италия",
+   "city": "Милан",
+   "foundedYear": 1965,
+   "email": "info@casanobile.example",
+   "website": "casanobile.example",
+   "materialIds": [
+    4,
+    8,
+    10,
+    13,
+    14,
+    16
+   ],
+   "description": "Премиальная мягкая мебель ручной работы.",
+   "deletedAt": null
+  },
+  {
+   "id": 5,
+   "name": "Legno Vivo",
+   "country": "Италия",
+   "city": "Верона",
+   "foundedYear": 1978,
+   "email": "info@legnovivo.example",
+   "website": "legnovivo.example",
+   "materialIds": [
+    1,
+    2,
+    5,
+    10,
+    11
+   ],
+   "description": "Обеденные группы и комоды из ореха и дуба.",
+   "deletedAt": null
+  },
+  {
+   "id": 6,
+   "name": "Nordhus",
+   "country": "Швеция",
+   "city": "Мальмё",
+   "foundedYear": 1987,
+   "email": "info@nordhus.example",
+   "website": "nordhus.example",
+   "materialIds": [
+    2,
+    8,
+    9,
+    10,
+    12
+   ],
+   "description": "Скандинавский минимализм для небольших квартир.",
+   "deletedAt": null
+  },
+  {
+   "id": 7,
+   "name": "Skogen Design",
+   "country": "Норвегия",
+   "city": "Берген",
+   "foundedYear": 2001,
+   "email": "info@skogen.example",
+   "website": "skogen.example",
+   "materialIds": [
+    2,
+    3,
+    4,
+    14,
+    20
+   ],
+   "description": "Светлое дерево, мягкие ткани, простые формы.",
+   "deletedAt": null
+  },
+  {
+   "id": 8,
+   "name": "Holzwerk",
+   "country": "Германия",
+   "city": "Штутгарт",
+   "foundedYear": 1959,
+   "email": "info@holzwerk.example",
+   "website": "holzwerk.example",
+   "materialIds": [
+    6,
+    7,
+    8,
+    18,
+    20
+   ],
+   "description": "Мебель для дома и кабинета с немецкой гарантией 10 лет.",
+   "deletedAt": null
+  },
+  {
+   "id": 9,
+   "name": "Möbelhaus Weber",
+   "country": "Германия",
+   "city": "Кёльн",
+   "foundedYear": 1971,
+   "email": "info@weber-moebel.example",
+   "website": "weber-moebel.example",
+   "materialIds": [
+    5,
+    6,
+    17,
+    18
+   ],
+   "description": "Шкафы и гардеробные по индивидуальным размерам.",
+   "deletedAt": null
+  },
+  {
+   "id": 10,
+   "name": "Białe Drewno",
+   "country": "Польша",
+   "city": "Познань",
+   "foundedYear": 1995,
+   "email": "info@bialedrewno.example",
+   "website": "bialedrewno.example",
+   "materialIds": [
+    9
+   ],
+   "description": "Мебель из МДФ в стиле прованс.",
+   "deletedAt": null
+  },
+  {
+   "id": 11,
+   "name": "Белый бор",
+   "country": "Беларусь",
+   "city": "Пинск",
+   "foundedYear": 1983,
+   "email": "info@belbor.example",
+   "website": "belbor.example",
+   "materialIds": [
+    2,
+    3,
+    4
+   ],
+   "description": "Стулья и детская мебель из массива бука и берёзы.",
+   "deletedAt": null
+  },
+  {
+   "id": 12,
+   "name": "Anadolu Mobilya",
+   "country": "Турция",
+   "city": "Измир",
+   "foundedYear": 2008,
+   "email": "info@anadolu.example",
+   "website": "anadolu.example",
+   "materialIds": [
+    9,
+    15,
+    17,
+    18,
+    19
+   ],
+   "description": "Яркая и недорогая мебель для дома и дачи.",
+   "deletedAt": null
+  },
+  {
+   "id": 13,
+   "name": "Ивановская мебельная фабрика",
+   "country": "Россия",
+   "city": "Иваново",
+   "foundedYear": 1975,
+   "email": "",
+   "website": "",
+   "materialIds": [
+    2,
+    22
+   ],
+   "description": "Поставки прекращены. Запись оставлена для истории заказов.",
+   "deletedAt": "2026-09-15T00:00:00.000"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "name": "Диван «Осло» прямой",
+   "sku": "DV-1001",
+   "manufacturerId": 6,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    10,
+    2
+   ],
+   "price": 54990,
+   "stock": 7,
+   "widthCm": 214,
+   "depthCm": 92,
+   "heightCm": 84,
+   "color": "Серый",
+   "description": "Трёхместный диван на деревянных ножках, съёмные чехлы.",
+   "deletedAt": null
+  },
+  {
+   "id": 2,
+   "name": "Диван-кровать «Верона»",
+   "sku": "DV-1002",
+   "manufacturerId": 5,
+   "categoryIds": [
+    1,
+    6
+   ],
+   "materialIds": [
+    11,
+    2
+   ],
+   "price": 89990,
+   "stock": 3,
+   "widthCm": 230,
+   "depthCm": 105,
+   "heightCm": 90,
+   "color": "Бежевый",
+   "description": "Механизм «еврокнижка», спальное место 160 × 200.",
+   "deletedAt": null
+  },
+  {
+   "id": 3,
+   "name": "Угловой диван «Мальмё»",
+   "sku": "DV-1003",
+   "manufacturerId": 6,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    12,
+    2
+   ],
+   "price": 112500,
+   "stock": 0,
+   "widthCm": 280,
+   "depthCm": 175,
+   "heightCm": 86,
+   "color": "Графит",
+   "description": "Угол меняется на левый или правый при сборке.",
+   "deletedAt": null
+  },
+  {
+   "id": 4,
+   "name": "Диван «Классик» трёхместный",
+   "sku": "DV-1004",
+   "manufacturerId": 2,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    17,
+    8
+   ],
+   "price": 38900,
+   "stock": 12,
+   "widthCm": 200,
+   "depthCm": 88,
+   "heightCm": 82,
+   "color": "Коричневый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 5,
+   "name": "Диван «Милано» кожаный",
+   "sku": "DV-1005",
+   "manufacturerId": 4,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    16,
+    4
+   ],
+   "price": 245000,
+   "stock": 2,
+   "widthCm": 226,
+   "depthCm": 98,
+   "heightCm": 78,
+   "color": "Коньячный",
+   "description": "Каркас из массива бука, кожа анилин.",
+   "deletedAt": null
+  },
+  {
+   "id": 6,
+   "name": "Диван-книжка «Уют»",
+   "sku": "DV-1006",
+   "manufacturerId": 2,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    10,
+    8
+   ],
+   "price": 24990,
+   "stock": 15,
+   "widthCm": 190,
+   "depthCm": 86,
+   "heightCm": 90,
+   "color": "Синий",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 7,
+   "name": "Кресло «Бергамо»",
+   "sku": "KR-2001",
+   "manufacturerId": 4,
+   "categoryIds": [
+    2
+   ],
+   "materialIds": [
+    13,
+    4
+   ],
+   "price": 67900,
+   "stock": 4,
+   "widthCm": 82,
+   "depthCm": 86,
+   "heightCm": 95,
+   "color": "Изумрудный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 8,
+   "name": "Кресло-качалка «Ладога»",
+   "sku": "KR-2002",
+   "manufacturerId": 1,
+   "categoryIds": [
+    2
+   ],
+   "materialIds": [
+    3
+   ],
+   "price": 32500,
+   "stock": 6,
+   "widthCm": 65,
+   "depthCm": 110,
+   "heightCm": 105,
+   "color": "Натуральный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 9,
+   "name": "Кресло «Фьорд»",
+   "sku": "KR-2003",
+   "manufacturerId": 7,
+   "categoryIds": [
+    2
+   ],
+   "materialIds": [
+    14,
+    3
+   ],
+   "price": 41200,
+   "stock": 0,
+   "widthCm": 76,
+   "depthCm": 80,
+   "heightCm": 88,
+   "color": "Молочный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 10,
+   "name": "Кресло-мешок «Облако»",
+   "sku": "KR-2004",
+   "manufacturerId": 12,
+   "categoryIds": [
+    2
+   ],
+   "materialIds": [
+    15
+   ],
+   "price": 7490,
+   "stock": 25,
+   "widthCm": 90,
+   "depthCm": 90,
+   "heightCm": 110,
+   "color": "Оранжевый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 11,
+   "name": "Кресло офисное «Штутгарт»",
+   "sku": "KR-2005",
+   "manufacturerId": 8,
+   "categoryIds": [
+    2
+   ],
+   "materialIds": [
+    20,
+    18
+   ],
+   "price": 28900,
+   "stock": 9,
+   "widthCm": 66,
+   "depthCm": 66,
+   "heightCm": 120,
+   "color": "Чёрный",
+   "description": "Синхромеханизм качания, регулируемая поясница.",
+   "deletedAt": null
+  },
+  {
+   "id": 12,
+   "name": "Стол обеденный «Тоскана»",
+   "sku": "ST-3001",
+   "manufacturerId": 5,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    1
+   ],
+   "price": 74900,
+   "stock": 3,
+   "widthCm": 180,
+   "depthCm": 90,
+   "heightCm": 76,
+   "color": "Дуб натуральный",
+   "description": "На восемь персон.",
+   "deletedAt": null
+  },
+  {
+   "id": 13,
+   "name": "Стол раздвижной «Карелия»",
+   "sku": "ST-3002",
+   "manufacturerId": 1,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    2
+   ],
+   "price": 46500,
+   "stock": 5,
+   "widthCm": 140,
+   "depthCm": 85,
+   "heightCm": 75,
+   "color": "Белый",
+   "description": "Раскладывается до 190 см.",
+   "deletedAt": null
+  },
+  {
+   "id": 14,
+   "name": "Стол журнальный «Лофт»",
+   "sku": "ST-3003",
+   "manufacturerId": 3,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    18,
+    6
+   ],
+   "price": 12990,
+   "stock": 18,
+   "widthCm": 100,
+   "depthCm": 60,
+   "heightCm": 45,
+   "color": "Дуб тёмный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 15,
+   "name": "Стол письменный «Студент»",
+   "sku": "ST-3004",
+   "manufacturerId": 2,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    8
+   ],
+   "price": 9990,
+   "stock": 30,
+   "widthCm": 120,
+   "depthCm": 60,
+   "heightCm": 75,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 16,
+   "name": "Стол компьютерный «Хольц»",
+   "sku": "ST-3005",
+   "manufacturerId": 8,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    7
+   ],
+   "price": 35400,
+   "stock": 7,
+   "widthCm": 160,
+   "depthCm": 80,
+   "heightCm": 74,
+   "color": "Ясень",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 17,
+   "name": "Стол обеденный «Анкара» круглый",
+   "sku": "ST-3006",
+   "manufacturerId": 12,
+   "categoryIds": [
+    3
+   ],
+   "materialIds": [
+    19,
+    18
+   ],
+   "price": 21900,
+   "stock": 0,
+   "widthCm": 110,
+   "depthCm": 110,
+   "heightCm": 76,
+   "color": "Чёрный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 18,
+   "name": "Стул «Венский»",
+   "sku": "SL-4001",
+   "manufacturerId": 11,
+   "categoryIds": [
+    4
+   ],
+   "materialIds": [
+    4
+   ],
+   "price": 6490,
+   "stock": 40,
+   "widthCm": 43,
+   "depthCm": 52,
+   "heightCm": 88,
+   "color": "Орех",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 19,
+   "name": "Стул «Скандинавия»",
+   "sku": "SL-4002",
+   "manufacturerId": 7,
+   "categoryIds": [
+    4
+   ],
+   "materialIds": [
+    20,
+    4
+   ],
+   "price": 4990,
+   "stock": 60,
+   "widthCm": 46,
+   "depthCm": 53,
+   "heightCm": 81,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 20,
+   "name": "Стул барный «Вебер»",
+   "sku": "SL-4003",
+   "manufacturerId": 9,
+   "categoryIds": [
+    4
+   ],
+   "materialIds": [
+    18,
+    17
+   ],
+   "price": 11900,
+   "stock": 14,
+   "widthCm": 42,
+   "depthCm": 45,
+   "heightCm": 105,
+   "color": "Серый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 21,
+   "name": "Стул мягкий «Тоскана»",
+   "sku": "SL-4004",
+   "manufacturerId": 5,
+   "categoryIds": [
+    4
+   ],
+   "materialIds": [
+    10,
+    1
+   ],
+   "price": 15800,
+   "stock": 8,
+   "widthCm": 48,
+   "depthCm": 56,
+   "heightCm": 95,
+   "color": "Бежевый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 22,
+   "name": "Табурет «Деревенский»",
+   "sku": "SL-4005",
+   "manufacturerId": 1,
+   "categoryIds": [
+    4
+   ],
+   "materialIds": [
+    2
+   ],
+   "price": 2390,
+   "stock": 0,
+   "widthCm": 35,
+   "depthCm": 35,
+   "heightCm": 45,
+   "color": "Натуральный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 23,
+   "name": "Шкаф-купе «Престиж» трёхдверный",
+   "sku": "SH-5001",
+   "manufacturerId": 2,
+   "categoryIds": [
+    5
+   ],
+   "materialIds": [
+    8,
+    21
+   ],
+   "price": 64900,
+   "stock": 4,
+   "widthCm": 240,
+   "depthCm": 60,
+   "heightCm": 240,
+   "color": "Венге",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 24,
+   "name": "Шкаф распашной «Нордхус»",
+   "sku": "SH-5002",
+   "manufacturerId": 6,
+   "categoryIds": [
+    5
+   ],
+   "materialIds": [
+    8
+   ],
+   "price": 52900,
+   "stock": 6,
+   "widthCm": 150,
+   "depthCm": 58,
+   "heightCm": 220,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 25,
+   "name": "Шкаф книжный «Библиотека»",
+   "sku": "SH-5003",
+   "manufacturerId": 3,
+   "categoryIds": [
+    5,
+    8
+   ],
+   "materialIds": [
+    1
+   ],
+   "price": 38500,
+   "stock": 2,
+   "widthCm": 100,
+   "depthCm": 40,
+   "heightCm": 210,
+   "color": "Дуб",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 26,
+   "name": "Шкаф-купе «Познань»",
+   "sku": "SH-5004",
+   "manufacturerId": 10,
+   "categoryIds": [
+    5
+   ],
+   "materialIds": [
+    9
+   ],
+   "price": 47200,
+   "stock": 0,
+   "widthCm": 180,
+   "depthCm": 62,
+   "heightCm": 230,
+   "color": "Серый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 27,
+   "name": "Гардероб «Кёльн»",
+   "sku": "SH-5005",
+   "manufacturerId": 9,
+   "categoryIds": [
+    5
+   ],
+   "materialIds": [
+    5
+   ],
+   "price": 119000,
+   "stock": 1,
+   "widthCm": 200,
+   "depthCm": 60,
+   "heightCm": 236,
+   "color": "Орех",
+   "description": "Встроенная подсветка и выдвижные брючницы.",
+   "deletedAt": null
+  },
+  {
+   "id": 28,
+   "name": "Кровать «Сканди» 160 × 200",
+   "sku": "KV-6001",
+   "manufacturerId": 7,
+   "categoryIds": [
+    6
+   ],
+   "materialIds": [
+    3
+   ],
+   "price": 43900,
+   "stock": 5,
+   "widthCm": 170,
+   "depthCm": 210,
+   "heightCm": 95,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 29,
+   "name": "Кровать «Лаура» с подъёмным механизмом",
+   "sku": "KV-6002",
+   "manufacturerId": 4,
+   "categoryIds": [
+    6
+   ],
+   "materialIds": [
+    10,
+    8
+   ],
+   "price": 128000,
+   "stock": 2,
+   "widthCm": 176,
+   "depthCm": 218,
+   "heightCm": 110,
+   "color": "Пудровый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 30,
+   "name": "Кровать двухъярусная «Юнга»",
+   "sku": "KV-6003",
+   "manufacturerId": 1,
+   "categoryIds": [
+    6
+   ],
+   "materialIds": [
+    2
+   ],
+   "price": 36700,
+   "stock": 4,
+   "widthCm": 98,
+   "depthCm": 208,
+   "heightCm": 170,
+   "color": "Натуральный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 31,
+   "name": "Кровать «Мюнхен» 180 × 200",
+   "sku": "KV-6004",
+   "manufacturerId": 8,
+   "categoryIds": [
+    6
+   ],
+   "materialIds": [
+    6
+   ],
+   "price": 79500,
+   "stock": 0,
+   "widthCm": 192,
+   "depthCm": 212,
+   "heightCm": 100,
+   "color": "Дуб",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 32,
+   "name": "Кровать детская «Белый бор»",
+   "sku": "KV-6005",
+   "manufacturerId": 11,
+   "categoryIds": [
+    6
+   ],
+   "materialIds": [
+    3
+   ],
+   "price": 18900,
+   "stock": 11,
+   "widthCm": 85,
+   "depthCm": 168,
+   "heightCm": 80,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 33,
+   "name": "Комод «Прованс» на пять ящиков",
+   "sku": "KM-7001",
+   "manufacturerId": 10,
+   "categoryIds": [
+    7
+   ],
+   "materialIds": [
+    9
+   ],
+   "price": 23400,
+   "stock": 9,
+   "widthCm": 80,
+   "depthCm": 45,
+   "heightCm": 110,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 34,
+   "name": "Комод «Ривьера»",
+   "sku": "KM-7002",
+   "manufacturerId": 5,
+   "categoryIds": [
+    7
+   ],
+   "materialIds": [
+    5
+   ],
+   "price": 58600,
+   "stock": 3,
+   "widthCm": 140,
+   "depthCm": 48,
+   "heightCm": 82,
+   "color": "Орех",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 35,
+   "name": "Комод «Сосновый бор»",
+   "sku": "KM-7003",
+   "manufacturerId": 1,
+   "categoryIds": [
+    7
+   ],
+   "materialIds": [
+    2
+   ],
+   "price": 17800,
+   "stock": 6,
+   "widthCm": 108,
+   "depthCm": 50,
+   "heightCm": 96,
+   "color": "Натуральный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 36,
+   "name": "Тумба прикроватная «Вебер»",
+   "sku": "KM-7004",
+   "manufacturerId": 9,
+   "categoryIds": [
+    7,
+    6
+   ],
+   "materialIds": [
+    6
+   ],
+   "price": 9900,
+   "stock": 20,
+   "widthCm": 45,
+   "depthCm": 40,
+   "heightCm": 55,
+   "color": "Дуб",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 37,
+   "name": "Стеллаж «Каскад»",
+   "sku": "SG-8001",
+   "manufacturerId": 3,
+   "categoryIds": [
+    8
+   ],
+   "materialIds": [
+    18,
+    1
+   ],
+   "price": 14500,
+   "stock": 13,
+   "widthCm": 90,
+   "depthCm": 35,
+   "heightCm": 190,
+   "color": "Чёрный",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 38,
+   "name": "Стеллаж открытый «Фьорд»",
+   "sku": "SG-8002",
+   "manufacturerId": 7,
+   "categoryIds": [
+    8
+   ],
+   "materialIds": [
+    2
+   ],
+   "price": 19900,
+   "stock": 0,
+   "widthCm": 120,
+   "depthCm": 40,
+   "heightCm": 180,
+   "color": "Белый",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 39,
+   "name": "Полка настенная «Минимал»",
+   "sku": "SG-8003",
+   "manufacturerId": 12,
+   "categoryIds": [
+    8
+   ],
+   "materialIds": [
+    9
+   ],
+   "price": 2990,
+   "stock": 50,
+   "widthCm": 80,
+   "depthCm": 20,
+   "heightCm": 20,
+   "color": "Дуб сонома",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 40,
+   "name": "Стеллаж-перегородка «Берлин»",
+   "sku": "SG-8004",
+   "manufacturerId": 8,
+   "categoryIds": [
+    8,
+    5
+   ],
+   "materialIds": [
+    8,
+    6
+   ],
+   "price": 31200,
+   "stock": 5,
+   "widthCm": 150,
+   "depthCm": 38,
+   "heightCm": 160,
+   "color": "Белый с дубом",
+   "description": "",
+   "deletedAt": null
+  },
+  {
+   "id": 41,
+   "name": "Диван «Ретро»",
+   "sku": "DV-1007",
+   "manufacturerId": 13,
+   "categoryIds": [
+    1
+   ],
+   "materialIds": [
+    22,
+    2
+   ],
+   "price": 19900,
+   "stock": 0,
+   "widthCm": 180,
+   "depthCm": 85,
+   "heightCm": 85,
+   "color": "Зелёный",
+   "description": "Модель снята с производства.",
+   "deletedAt": "2026-10-01T00:00:00.000"
+  }
+ ],
+ "customers": [
+  {
+   "id": 1,
+   "fullName": "Иванова Анна Сергеевна",
+   "email": "anna.ivanova@mail.example",
+   "phone": "+7 (912) 345-67-01",
+   "card": {
+    "number": "10000001",
+    "discountPercent": 5,
+    "issuedAt": "2025-03-14T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 2,
+   "fullName": "Петров Дмитрий Олегович",
+   "email": "d.petrov@mail.example",
+   "phone": "+7 (903) 118-22-45",
+   "card": null,
+   "deletedAt": null
+  },
+  {
+   "id": 3,
+   "fullName": "Смирнова Ольга Викторовна",
+   "email": "olga.smirnova@mail.example",
+   "phone": "+7 (925) 700-12-34",
+   "card": {
+    "number": "10000002",
+    "discountPercent": 10,
+    "issuedAt": "2024-11-02T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 4,
+   "fullName": "Кузнецов Игорь Павлович",
+   "email": "kuznetsov.ip@mail.example",
+   "phone": "+7 (916) 222-33-44",
+   "card": null,
+   "deletedAt": null
+  },
+  {
+   "id": 5,
+   "fullName": "Соколова Мария Андреевна",
+   "email": "m.sokolova@mail.example",
+   "phone": "+7 (999) 456-78-90",
+   "card": {
+    "number": "10000003",
+    "discountPercent": 7,
+    "issuedAt": "2025-06-20T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 6,
+   "fullName": "Попов Алексей Николаевич",
+   "email": "a.popov@mail.example",
+   "phone": "+7 (905) 321-54-76",
+   "card": {
+    "number": "10000004",
+    "discountPercent": 15,
+    "issuedAt": "2023-12-01T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 7,
+   "fullName": "Лебедева Екатерина Ильинична",
+   "email": "e.lebedeva@mail.example",
+   "phone": "+7 (917) 654-32-10",
+   "card": null,
+   "deletedAt": null
+  },
+  {
+   "id": 8,
+   "fullName": "Новиков Сергей Владимирович",
+   "email": "novikov.sv@mail.example",
+   "phone": "+7 (926) 111-22-33",
+   "card": {
+    "number": "10000005",
+    "discountPercent": 3,
+    "issuedAt": "2026-02-10T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 9,
+   "fullName": "Морозова Татьяна Юрьевна",
+   "email": "t.morozova@mail.example",
+   "phone": "+7 (915) 987-65-43",
+   "card": null,
+   "deletedAt": null
+  },
+  {
+   "id": 10,
+   "fullName": "Волков Андрей Михайлович",
+   "email": "volkov.am@mail.example",
+   "phone": "+7 (985) 246-80-13",
+   "card": {
+    "number": "10000006",
+    "discountPercent": 20,
+    "issuedAt": "2022-09-05T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 11,
+   "fullName": "Фёдорова Наталья Петровна",
+   "email": "n.fedorova@mail.example",
+   "phone": "+7 (977) 135-79-24",
+   "card": null,
+   "deletedAt": null
+  },
+  {
+   "id": 12,
+   "fullName": "Алексеев Роман Евгеньевич",
+   "email": "r.alekseev@mail.example",
+   "phone": "+7 (968) 864-20-97",
+   "card": {
+    "number": "10000007",
+    "discountPercent": 5,
+    "issuedAt": "2025-10-30T00:00:00.000"
+   },
+   "deletedAt": null
+  },
+  {
+   "id": 13,
+   "fullName": "Гаврилов Олег Степанович",
+   "email": "o.gavrilov@mail.example",
+   "phone": "+7 (901) 000-11-22",
+   "card": null,
+   "deletedAt": "2026-09-01T00:00:00.000"
+  }
+ ]
+}
